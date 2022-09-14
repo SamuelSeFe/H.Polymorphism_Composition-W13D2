@@ -74,7 +74,7 @@ A Car class requires an Engine and Wheels class to function. This is a compositi
 A. It can make objects have a particular method or attribute that does not need to be shared with other objects. In the instance of inheritance, there is always going to be one main superclass, so any objects inheriting from that superclass will have all the attributes and methods of their parent class. This means that some objects can have unused code, or code that does not specifically relate to that object. With composition/aggregation we can make sure that we maintain our code DRY and achieve polymorphism.
 
 10. When using composition, when an object is destroyed, what happens to all the objects it is composed of?
-A. Can still function on their own.
+A. The objects are also destroyed.
 
 11. When using aggregation, when an object is destroyed, what happens to all the objects it is composed of?
 A. Can still function on their own.
